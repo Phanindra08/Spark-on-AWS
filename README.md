@@ -150,7 +150,7 @@ Your pipeline is now fully deployed and automated!
 3.  This will trigger the Lambda, which in turn starts the Glue job.
 4.  You can monitor the job's progress in the **AWS Glue** console under the **Monitoring** tab.
 
-**Repository Structure:**
+## Repository Structure:
 ```
 Spark-on-AWS/
 ├── InputFiles/
