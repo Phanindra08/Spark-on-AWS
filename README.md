@@ -154,20 +154,19 @@ Your pipeline is now fully deployed and automated!
 ## 📊 Results and Screenshots
 
 ### Screenshot 1: Lambda Function Triggered
-
+<img width="780" height="620" alt="AWSLambdaOutputLogs" src="https://github.com/user-attachments/assets/9c873b93-6795-408d-9375-96cad80c95db" />
 
 ### Screenshot 2: Glue Job Script
-
+<img width="780" height="620" alt="AWSGlueScript" src="https://github.com/user-attachments/assets/fbb557f2-96fa-4587-b511-a9ee3ea4a2ff" />
 
 ### Screenshot 3: Glue Job Completed Successfully
-
+<img width="780" height="620" alt="AWSGlueRun" src="https://github.com/user-attachments/assets/9ffb6976-52b2-49bd-95ed-061237303888" />
 
 ### Screenshot 4: Cloud Watch Logs
-
+<img width="780" height="620" alt="AWSCloudWatch" src="https://github.com/user-attachments/assets/c90b5fd5-c3a1-4358-b871-637ff0a6c2f6" />
 
 ### Screenshot 5: Output Parquet Files in S3
-
-
+<img width="780" height="620" alt="S3OutputFolderPitcure2" src="https://github.com/user-attachments/assets/648c23ab-4bb2-459f-8677-98d39215b0b3" />
 
 ## 🎓 Approach and Methodology
 
