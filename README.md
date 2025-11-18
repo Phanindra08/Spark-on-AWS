@@ -150,6 +150,21 @@ Your pipeline is now fully deployed and automated!
 3.  This will trigger the Lambda, which in turn starts the Glue job.
 4.  You can monitor the job's progress in the **AWS Glue** console under the **Monitoring** tab.
 
+**Repository Structure:**
+```
+Spark-on-AWS/
+├── InputFiles/
+│   └── reviews.csv
+├── OutputCSVFiles/
+│   ├── AverageRating
+│   ├── DailyReviewTrends
+│   ├── RatingDistribution
+│   └── TopActiveCustomers
+├── OutputScreenshots/
+├── GlueETLScript.py
+├── LambdaFunction.py
+└── README.md
+```
 
 ## 📊 Results and Screenshots
 
@@ -198,19 +213,3 @@ Your pipeline is now fully deployed and automated!
 2. **Scalability:** Components scale automatically with data volume
 3. **Cost-Efficiency:** Pay-per-use model reduces operational costs
 4. **Event-Driven:** Real-time processing as data arrives
-
-**Repository Structure:**
-```
-Spark-on-AWS/
-├── InputFiles/
-│   └── reviews.csv
-├── OutputCSVFiles/
-│   ├── AverageRating
-│   ├── DailyReviewTrends
-│   ├── RatingDistribution
-│   └── TopActiveCustomers
-├── OutputScreenshots/
-├── GlueETLScript.py
-├── LambdaFunction.py
-└── README.md
-```
